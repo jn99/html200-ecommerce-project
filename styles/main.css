@@ -1,7 +1,7 @@
 body {
   font-size: 100%;
   font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
-  background: #887853;
+  background: #d9c596;
 }
 
 p {
@@ -11,21 +11,18 @@ p {
 }
 
 @media screen and (max-width: 1100px){
- body{background: #9ca089;}
+ body{background: #c7d09e;}
 }
 
 @media screen and (max-width: 320px){
-  body{background: #e6a6a6;}
+  body{background: #e8c5c5;}
 }
 
 /* TODO: size images manually so this is not necessary */
-img {
-  max-height: 20rem;
-}
-
 a{
   text-decoration: none;
 }
+
 /***************** NAV *****************/
 nav{
   width: 100%;
@@ -48,10 +45,9 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/**************** HERO *****************/
+/**************** LOGO *****************/
 header img {
   float: left;
-  max-height: 6rem;
 }
 
 h1 .logo-w {
@@ -59,7 +55,7 @@ h1 .logo-w {
   color: dodgerblue;
 }
 
-/**************** ASIDE ****************/
+/**************** Sign up mailing list ****************/
 input[type="submit"] {
   padding: .25rem;
   background-color: #3D7FCF;
@@ -69,9 +65,14 @@ input[type="submit"] {
   color: white;
 }
 
+aside{
+  clear: both;
+}
+
 /*********** PRODUCTS SECTION ***********/
 section {
   padding: 0 .75rem;
+  clear: both;
 }
 
 h2 {
@@ -85,4 +86,21 @@ h3 {
   font-size: 1.2rem;
   text-align: center;
   color: #2d2d2d;
+}
+
+.flex-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pic{
+  width: 200px;
+  height: 200px;
+}
+
+.module{
+  width: 400px;
+  height: 400px;
 }
