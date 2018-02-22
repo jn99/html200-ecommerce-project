@@ -92,15 +92,19 @@ h3 {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  align-items: center;
 }
 
 .pic{
-  width: 200px;
-  height: 200px;
+  max-width: 15rem;
+  max-height: 15rem;
 }
 
 .module{
-  width: 400px;
-  height: 400px;
+  max-width: 20rem;
+  text-align: center;
 }
+
+
+
+
+
