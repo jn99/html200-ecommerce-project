@@ -11,52 +11,72 @@ p {
 }
 
 @media screen and (max-width: 1100px){
- body{background: #c7d09e;}
+ body{
+   background: #c7d09e;
+  }
 }
 
-@media screen and (max-width: 320px){
-  body{background: #e8c5c5;}
+@media screen and (max-width: 680px){
+  body{
+    background: #e8c5c5;
+  }
+  nav ul{
+    flex-direction: column;
+  }
+  nav ul li{
+    width: 100%;
+    border: 1px solid white;
+    line-height: 1rem;
+    font-size: 1rem;
+  }
 }
 
-/* TODO: size images manually so this is not necessary */
 a{
   text-decoration: none;
 }
 
-/***************** NAV *****************/
-nav{
+/***************** NAVIGATION *****************/
+nav {
   width: 100%;
-  background-color: dodgerblue;
-  height: 2rem;
 }
 
-nav ul li {
-  float: left;
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+nav li{
+  background-color: dodgerblue;
   width: 25%;
   text-align: center;
   line-height: 2rem;
   color: white;
+  font-size: 2rem;
+  padding: 0.5rem;
 }
 
-nav ul li a{
+nav a{
   color: white;
 }
-nav a:hover {
-  text-decoration: underline;
+
+nav a:hover{
+  font-size: 110%;
 }
 
 /**************** LOGO *****************/
-header img {
+header img{
   float: left;
 }
 
-h1 .logo-w {
+h1 .logo-w{
   font-size: 3.5rem;
   color: dodgerblue;
 }
 
 /**************** Sign up mailing list ****************/
-input[type="submit"] {
+input[type="submit"]{
   padding: .25rem;
   background-color: #3D7FCF;
   border: 1px solid #3D7FCF;
@@ -70,19 +90,19 @@ aside{
 }
 
 /*********** PRODUCTS SECTION ***********/
-section {
+section{
   padding: 0 .75rem;
   clear: both;
 }
 
-h2 {
+h2{
   padding-top: 1.5rem;
   font-size: 2rem;
   text-align: center;
   color: #2d2d2d;
 }
 
-h3 {
+h3{
   font-size: 1.2rem;
   text-align: center;
   color: #2d2d2d;
@@ -100,6 +120,9 @@ h3 {
 }
 
 .module{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #f58a8a;
   max-width: 20rem;
   text-align: center;
 }
