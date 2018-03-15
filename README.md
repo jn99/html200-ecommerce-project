@@ -70,3 +70,16 @@ Each weekly assignment will be graded independently. There will not be a final g
 
 ## Testing
 [update this section with information about the testing steps you took to ensure site quality]
+Audiences: people into scarves, young aldult and aldult, people looking to buy gif, mostly female, fashionable
+
+Devices: mobile, tablet, laptop
+
+Browser Tool: http://responsivedesignchecker.com
+ - Works well on all provided destkop and notebook sizes
+ - Works well on all provided tablet sizes
+ - Works well on all provided mobiles
+
+Performance Testing through: https://www.webpagetest.org
+ - Rating A:  First Byte Time, Keep-alive Enable, Compress Transfer, Compress Images
+ - Rating F: Cache static content
+ - Checked: Effective use of CDN
